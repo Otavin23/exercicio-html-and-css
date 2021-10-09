@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+/* Parte do texto */
+*{
+    padding: 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.text-logo h1{
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 130px;
+
+    border-bottom: 1px solid #f1f0f0;
+
+
+
+}
+.text-logo h1 a{
+    text-decoration: none;
+    color: #030f12;
+}
+
+/*justify-content */
+/* nav-bar essa parte */
+
+.menu ul{
+    display: flex;
+    font-family:sans-serif;
+    position: absolute;
+    flex-wrap: wrap;
+
+    font-size: 17px;
+
+    right: 330px;
+    top: 20px;
+    bottom: 20px;
+
+}
+.menu ul li{
+    list-style: none;
+
+    padding-left: 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #707579;
+}
+.menu li a:hover{
+    color: #030f12;
+}
+/* Começando a estilizar o Download */
+
+.botao{
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    flex-wrap: wrap;
+
+    font-size: 18px;
+
+    right: 135px;
+    top: 20px;
+    bottom: 20px;
+
+}
+
+.botao li a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.botao li{
+    list-style: none;
+
+    padding-left: 50px;
+}
+.botao li a:hover{
+    color: white;
+    background-color: #1f1f1f;
+}
+
+.container-main{
+    color: yellow;
+}
+
+#texto{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+#texto2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    margin-right: 100px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+
+#texto2{
+    color: #707579;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: 150px;
+}
+.search input{
+    background-color: #f7f7f7;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 700px;
+    padding-left: 100px;
+
+
+    margin-top: 40px;
+}
+.search input{
+    border: none;
+    font-size: 24px;
+
+}
+.search input:hover{
+    border: none;
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+    position: absolute;
+    top: 310px;
+
+
+    margin-top: 10px;
+    margin-right: 700px;
+    margin-left: 145px;
+}
