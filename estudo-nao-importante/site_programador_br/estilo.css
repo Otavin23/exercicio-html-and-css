@@ -1,0 +1,227 @@
+/* Esta fonte e do nome  font-family: 'Big Shoulders Display', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+/* Essa outra e da letra */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+/* usa font-family: 'Lexend Deca', sans-serif; */
+
+
+*{
+    padding: 0;
+    margin: 0 auto;
+
+    box-sizing: border-box;
+
+}
+
+
+/* Imagem carinho amarelo */
+
+#carro{
+    background-color: #e28525;
+
+    color: #e28525;
+
+    width: 390px;
+    height: 600px;
+    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    padding-left: 60px;
+    padding-top: 50px;
+
+    position: relative;
+
+    left: 1px;
+
+    margin-left: 100px;
+    margin-top: 15px;
+
+}
+#texto{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+
+    color: white;
+
+    padding-left: 160px;
+    padding-top: 170px;
+
+    position: absolute;
+    
+    top: 2px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+
+    color: #ffd296;
+
+    padding-top: 30px;
+}
+
+#botao button{
+    border: none;
+
+    margin-left: 160px;
+    margin-bottom: 130px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 17px;
+    /*background-color: #e28525;*/
+
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    position: absolute;
+    
+    bottom: 1px;
+    left: 1px;
+
+
+}
+#botao button{
+    background-color: #e28525;
+    color: white;
+
+    border-radius: 30px;
+    border: 3px solid white;
+}
+#botao button:hover{
+    background-color: white;
+    color: #e28525;
+}
+
+/* Carro 2 agora */
+
+#carro2{
+    background-color:#115e66;
+
+    margin-left: 131px;
+    margin-bottom: 53px;
+
+
+    
+    padding-left: 60px;
+    padding-top: 50px;
+
+    border: 1px solid #3d5835;
+
+    width: 390px;
+    height: 600px;
+
+    position: absolute;
+    left: 360px;
+    bottom: 1px;
+}
+
+#texto2{
+
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+
+    color: white;
+
+    padding-left: 10px;
+    padding-top: 60px;
+
+
+}
+#texto2 p {
+    color: white;
+}
+
+
+#botao1 button{
+    border: none;
+    margin-left: 1px;
+    margin-top: 110px;
+    margin-bottom: 100px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 17px;
+    /*background-color: #e28525;*/
+
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+#botao1 button{
+    background-color: #115e66;
+    color: white;
+
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+#botao1 button:hover{
+    background-color: white;
+    color:#115e66;
+}
+#carro3{
+
+    background-color:#00403f;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 390px;
+    height: 600px;
+
+    margin-left: 318px;
+    position: absolute;
+
+    top: -1px;
+
+
+}
+
+#carro3{
+    
+    
+    padding-left: 60px;
+    padding-top: 50px;
+}
+#texto3{
+ 
+    
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+
+    color: white;
+
+    padding-left: 10px;
+    padding-top: 60px;
+
+}
+#botao3 button{
+    border: none;
+    margin-left: 1px;
+    margin-top: 110px;
+    margin-bottom: 100px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 17px;
+    /*background-color: #e28525;*/
+
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#botao3 button{
+    background-color: #00403f;
+    color: white;
+
+    border: 3px solid white;
+    border-radius: 30px;
+}
+#botao3 button:hover{
+    background-color: white;
+    color: #00403f;
+}
